@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gilroy';
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+#logo{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+}
+
+#left{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#image img{
+    position: absolute;
+    right: 0%;
+
+}
+#text{
+    height: 100%;
+    width: 100%;
+}
+#first{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 25%;
+    color: white;
+    font-size: 100px;
+    font-weight: 100;
+}
+#up{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: gray;
+    top: 25%;
+    left: 40%;
+    height: 80px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: rgb(66, 63, 63)
+}
+#second{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 36.5%;
+    top: 40%;
+    color: white;
+    font-size: 100px;
+    font-weight: 100;
+}
+#mid{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: gray;
+    top: 40%;
+    left: 22%;
+    height: 80px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: rgb(66, 63, 63);
+}
+#third{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 53%;
+    left: 27%;
+    color: white;
+    font-size: 90px;
+    font-weight: 100;
+
+}
+#down{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: whitesmoke solid 2px;
+    top: 53%;
+    left: 42%;
+    height: 82px;
+    width: 82px;
+    border-radius: 100px;
+    background-color: transparent;
+}
+#arrow{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40px;
+    left: 40px;
+}
+#arrow i{
+    font-size: 35px;
+    color: whitesmoke;
+}
+#bottomleft{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+    height: 8%;
+    width: 18%;
+    padding: 15px;
+    background-color: black;
+}
+#bottomleft #trans {
+    color: rgba(250, 245, 245, .5);
+}
+#bottomleft #opq {
+    color: rgb(250, 245, 245);
+}
+#poem{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 6.1%;
+    left: 50%;
+}
+#bnm{
+    color: rgba(250, 245, 245, 1);
+    font-weight: 100;
+}
